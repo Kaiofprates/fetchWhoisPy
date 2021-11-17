@@ -1,11 +1,11 @@
 import requests
 import json
 
-from src.integration.request import Request
+from src.integration.Registro import Registro
 from src.exceptions.NoContentException import NoContentException
 
 
-class RequestImpl(Request):
+class RequestImpl(Registro):
 
     def __init__(self, registro: str):
 
